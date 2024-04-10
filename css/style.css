@@ -16,6 +16,7 @@
 .bg-rosa{background-color: rgb(235, 113, 229)}
 .bg-amarillo{background-color: rgb(247, 232, 99)}
 .bg-negro{background-color: rgb(0, 0, 0)}
+.bg-azul{background-color: rgb(16, 0, 85)}
 
 /*colores para los botones, "hover" es para atenuar*/
 .btn-morado{background-color: rgb(203, 133, 243)}
@@ -123,3 +124,43 @@ li a {
   font-weight: 700; /* Establece el grosor de la fuente a 700 (negrita) */
   padding: 0 6px; /* Añade espacio interno (padding) de 0 a los lados y 6px arriba y abajo */
 }
+
+
+
+.barraInferior {
+  overflow: hidden;
+  width: 100%;
+  }
+  
+.barraInferior ul {
+      list-style-type: none;
+      margin: 0 auto;
+      padding-left: 30% ;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      
+  }
+  
+.barraInferior li {
+      float: left;
+      
+  }
+  
+.barraInferior li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+.barraInferior li a:hover{
+      background-color: #111;
+  }
+  
+.barraInferior li a:active{
+      background-color:#4CAF50;
+  }
