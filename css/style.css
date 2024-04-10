@@ -60,7 +60,7 @@ body{font-family: 'nunito Sans', sans-serif;} /*tipografia en toda la pagina ser
 }
 .img-bordes {
     border: 2px solid black; /* agrega borde negro "puede no exitir*/
-    border-radius: 5rem; /* Borde redondeado en imagen*/
+    border-radius: 1rem 3rem; /* Borde redondeado en imagen*/
     padding: 1px; /* Espacio entre el borde e imagen */
 }
 
