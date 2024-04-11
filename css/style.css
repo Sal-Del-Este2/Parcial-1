@@ -43,7 +43,7 @@
 .t800{ font-weight: 800;}
 .t900{ font-weight: 900;}
 
-body{font-family: 'nunito Sans', sans-serif;} /*tipografia en toda la pagina sera la misma por eso body*/
+.body{font-family: 'nunito Sans', sans-serif;} /*tipografia en toda la pagina sera la misma por eso body*/
 .tam01{font-size: 1.3rem;}/*usar "rem" para que se adapte el tamaño de la pagina y no sea absoluto como el PX*/
 .centrar{display: flex; justify-content: center; align-items: center;}/* para centrar */
 .bordes{
@@ -76,7 +76,7 @@ body{font-family: 'nunito Sans', sans-serif;} /*tipografia en toda la pagina ser
   padding: 20px; /* Espacio interno alrededor del borde interno */
 }
 
-.fixed-topbar {
+/*.fixed-topbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -84,7 +84,7 @@ body{font-family: 'nunito Sans', sans-serif;} /*tipografia en toda la pagina ser
   z-index: 1000;
   background-color: #333;
   padding: 10px 0;
-}
+}*/
 
 .navegacion {
   position: relative; /* Asegura que el z-index funcione */
@@ -124,43 +124,3 @@ li a {
   font-weight: 700; /* Establece el grosor de la fuente a 700 (negrita) */
   padding: 0 6px; /* Añade espacio interno (padding) de 0 a los lados y 6px arriba y abajo */
 }
-
-
-
-.barraInferior {
-  overflow: hidden;
-  width: 100%;
-  }
-  
-.barraInferior ul {
-      list-style-type: none;
-      margin: 0 auto;
-      padding-left: 30% ;
-      overflow: hidden;
-      background-color: #333;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      
-  }
-  
-.barraInferior li {
-      float: left;
-      
-  }
-  
-.barraInferior li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-  
-.barraInferior li a:hover{
-      background-color: #111;
-  }
-  
-.barraInferior li a:active{
-      background-color:#4CAF50;
-  }
