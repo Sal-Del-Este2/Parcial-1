@@ -26,43 +26,55 @@
 
     <body>
         <header>
-            <!--inicio barra superior-->
-            <div class="topbar bg-plomo py-3"><!-- bgmorado para que sea de color morado, py-3 el ancho -->
-                <div class="container">
-                    <div class="row">
-                        <!-- de 12 usare 4 columnas, t700 es para el grosor de la fuente-->
-                        <div class="col-lg-4 col-md-4 t700">
-                            <!-- nav, para que quede horizontal y no vertical por usar una lista.
-                                justify-content-between, para que queden separados-->
-                            <ul class="nav justify-content-between">
-                                <!-- txt-amarillo para que sea de color amarillo -->
-                                <!--text-decoration-none para que no este subrajado el enlace-->
-                                <!-- 1. se agrega "fa " para que carge los iconos-->
-                                <a href="index.html"> <img src="img\logo.png" width="70"></a> <!--imagen que me dirige al inicio-->
-                                <li><a class="text-decoration-none txt-amarillo" href="#"><i class="fa fa-solid fa-envelope px-1"></i></a></li> 
-                                <li><a class="text-decoration-none txt-amarillo" href="#"><i class="fa fa-solid fa-phone px-1"></i></a></li>
-                                <li><a class="text-decoration-none txt-amarillo" href="#"><i class="fa fa-solid fa-street-view px-1"></i></a></li>
-                            </ul><!--fin lista-->
-                        </div>
-                        <div class="col-lg-4 col-md-4 t700">
-                            <ul class="nav justify-content-center"> <!--centrer, para centrar los 3 iconos-->
-                                <!-- 1. se agrega "fa " para que carge los iconos-->
-                                <!-- 2. el px-2 es para que no estan juntos-->
-                                <li><a class="text-decoration-none txt-amarillo" href="#"><i class="fa fa-brands fa-facebook px-2"></i></a></li>
-                                <li><a class="text-decoration-none txt-amarillo" href="#"><i class="fa fa-brands fa-instagram px-2"></i></a></li>
-                                <li><a class="text-decoration-none txt-amarillo" href="#"><i class="fa fa-brands fa-twitter px-2"></i></a></li>
-                            </ul><!-- fin lista-->
-                        </div>
-                        <div class="col-lg-4 col-md-4 t700">
-                            <ul class="nav justify-content-end"> <!--centrer, para qcentrar los 3 iconos-->
-                                <!-- 1. se agrega "fa " para que carge los iconos-->
-                                <!-- 2. el px-2 es para que no estan juntos-->
-                                <li><a class="text-decoration-none txt-amarillo" href="login.html">Ingresar<i class="fa fa-regular fa-user px-1"></i></a></li>
-                            </ul><!-- fin lista-->
-                        </div>
-                    </div><!-- fin row-->
-                </div><!-- fin container-->
-            </div><!-- fin barra superior -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- inicio barra superior-->
+                <div class="container-fluid bg-celeste">
+                    <a href="index.html"> <img src="img\logo.png" width="60"> </a> <!--imagen que me dirige al inicio-->
+                    <p class="txt-plomo t700 px-1"> Taller Mecánico <br><span class="text-uppercase txt-plomo t400 px-1"> Rayo Makween</span> </p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-0 mb-lg-0"> <!-- inicio menus -->
+                            <li class="nav-item">
+                                <a class="nav-link txt-plomo" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-plomo" href="quienes-somos.html">Sobre Nosoros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-plomo" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link txt-plomo dropdown-toggle" href="autoayuda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Auto ayuda</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item txt-plomo" href="carroseria.html">Carroseria</a></li>
+                                    <li><a class="dropdown-item txt-plomo" href="#">Electricidad</a></li>
+                                    <li><a class="dropdown-item txt-plomo" href="#">Gases</a></li>
+                                    <li><a class="dropdown-item txt-plomo" href="#">Caja de Cambio</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-plomo" href="galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-plomo" href="#">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-plomo" href="#">Registrarse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txt-plomo" href="#">Agendar</a>
+                            </li>                                
+                        </ul> <!-- fin menus -->
+        
+                        <form class="d-flex" role="search"> <!-- inicio sector de busqueda -->
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> <!-- fin sector de busqueda -->
+                    </div>
+                </div>
+            </nav> <!-- ifin barra superior-->
             <div class="navegacion bg-negro py-4">
                 <div class="container">
                     <div class="row justify-content-between">
