@@ -52,7 +52,7 @@
     border: 10px solid #83bfc5;
     border-radius: 2rem 5rem;
     width: auto;
-    hight:auto;
+    height: auto;
     display: inline-block; /* Para ajustar el contenedor al tamaño del contenido */
     overflow: hidden; /* Oculta cualquier contenido que sobresalga del contenedor */
 }
