@@ -137,3 +137,6 @@ li a {
   font-weight: 700; /* Establece el grosor de la fuente a 700 (negrita) */
   padding: 0 6px; /* Añade espacio interno (padding) de 0 a los lados y 6px arriba y abajo */
 }
+.txt-justificado {
+  text-align: justify;
+}
