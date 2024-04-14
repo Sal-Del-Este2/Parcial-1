@@ -46,10 +46,15 @@
 .body{font-family: 'nunito Sans', sans-serif;} /*tipografia en toda la pagina sera la misma por eso body*/
 .tam01{font-size: 1.3rem;}/*usar "rem" para que se adapte el tamaño de la pagina y no sea absoluto como el PX*/
 .centrar{display: flex; justify-content: center; align-items: center;}/* para centrar */
+
 .bordes{
     background-color: #83bfc5;
     border: 10px solid #83bfc5;
     border-radius: 2rem 5rem;
+    width: auto;
+    hight:auto;
+    display: inline-block; /* Para ajustar el contenedor al tamaño del contenido */
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga del contenedor */
 }
 .bordes2{
     border: 2px solid black; /* agrega borde negro "puede no exitir*/
@@ -59,21 +64,21 @@
     text-align: center;
 }
 .img-bordes {
-    border: 2px solid black; /* agrega borde negro "puede no exitir*/
-    border-radius: 1rem 3rem; /* Borde redondeado en imagen*/
+    border: 2px solid black; /* agrega borde negro*/
+    border-radius: 2rem 4rem; /* Borde redondeado en imagen*/
     padding: 1px; /* Espacio entre el borde e imagen */
 }
 
 .contenedor-externo {
-  border: 2px solid rgb(255, 199, 199); /* Borde externo de 2px de ancho y color negro */
-  padding: 80px; /* Espacio interno alrededor del borde externo */
+  border: 2px solid rgb(255, 255, 255); /* Borde externo de 2px de ancho y color*/
+  padding: 10px; /* Espacio interno alrededor del borde externo */
 }
 
 /* Estilo para el borde interno */
 .borde-interno {
-  border: 2px solid red; /* Borde interno de 2px de ancho y color rojo */
-  border-radius: 5rem; /* Borde redondeado en imagen*/
-  padding: 20px; /* Espacio interno alrededor del borde interno */
+  border: 1px solid red; /* Borde interno de 2px de ancho y color*/
+  border-radius: 3rem; /* Borde redondeado en imagen*/
+  padding: 5px; /* Espacio interno alrededor del borde interno */
 }
 
 /*.fixed-topbar {
