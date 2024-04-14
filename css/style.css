@@ -53,8 +53,6 @@
     border-radius: 2rem 5rem;
     width: auto;
     height: auto;
-    display: inline-block; /* Para ajustar el contenedor al tamaño del contenido */
-    overflow: hidden; /* Oculta cualquier contenido que sobresalga del contenedor */
 }
 .bordes2{
     border: 2px solid black; /* agrega borde negro "puede no exitir*/
@@ -67,6 +65,16 @@
     border: 2px solid black; /* agrega borde negro*/
     border-radius: 2rem 4rem; /* Borde redondeado en imagen*/
     padding: 1px; /* Espacio entre el borde e imagen */
+}
+
+.separa-hori-md {
+  margin-right: 20px; /* Espacio horizontal entre cada columna medios*/
+}
+.separa-hori-lg {
+  margin-right: 20px; /* Espacio horizontal entre cada columna grandes */
+}
+.separa-verti {
+margin-bottom: 20px; /* Espacio vertical entre cada fila de columnas */
 }
 
 .contenedor-externo {
