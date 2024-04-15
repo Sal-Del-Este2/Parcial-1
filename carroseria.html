@@ -28,11 +28,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@200..900&display=swap" rel="stylesheet">
     </head>
         
-    <body>
+    <body class="fondo">
         <header>
                     
             <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- inicio barra superior-->
-                <div class="container-fluid bg-celeste">
+                <div class="container-fluid bg-negro">
                     <a href="index.html"> <img src="img\logo.png" width="60"> </a> <!--imagen que me dirige al inicio-->
                     <p class="txt-plomo t700 px-1"> Taller Mecánico <br><span class="text-uppercase txt-plomo t400 px-1"> Rayo Makween</span> </p>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link txt-plomo dropdown-toggle" href="autoayuda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Auto ayuda</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu bg-silver">
                                     <li><a class="dropdown-item txt-plomo" href="carroseria.html">Carroseria</a></li>
                                     <li><a class="dropdown-item txt-plomo" href="electricidad.html">Electricidad</a></li>
                                     <li><a class="dropdown-item txt-plomo" href="gases.html">Gases</a></li>
@@ -75,28 +75,28 @@
         
                         <form class="d-flex" role="search"> <!-- inicio sector de busqueda -->
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                                <button class="btn btn-outline-secondary" type="submit">Search</button>
                         </form> <!-- fin sector de busqueda -->
                     </div>
                 </div>
             </nav> <!-- ifin barra superior-->
         
-            <div class="contenedor-externo">
-                <div class="borde-interno">
+            <div class="#">
+                <div class="#">
                     <div class="carroceria py-4">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-8">
                                     <h3 class="t700 display-5 txt-naranja text-center">carrocería</h3>
                                     <p class="t600 display-5 txt-naranja text-center">Galería</p>
-                                    <p class="txt-justificado">Darle una renovación a tu carrocería no solo mejorará tu apariencia, 
+                                    <p class="txt-justificado txt-amarillo">Darle una renovación a tu carrocería no solo mejorará tu apariencia, 
                                             sino también tu confianza al volante. ¡Dale a tu vehículo el cuidado que se merece y vuelve a brillar en la carretera!</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                         
-                    <div class="carroseria">
+                    <div class="carroseria txt-amarillo">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 text-center separa-hori-lg separa-verti">
@@ -140,14 +140,14 @@
                                 <div class="col-lg-8 col-md-8">
                                     <h3 class="t700 display-5 txt-naranja text-center">carrocería</h3>
                                     <p class="t600 display-5 txt-naranja text-center">Auto ayuda</p>
-                                    <p class="txt-justificado">Explora videos de autoayuda especializados en técnicas de reparación y mantenimiento de carrocerías.
+                                    <p class="txt-justificado txt-amarillo">Explora videos de autoayuda especializados en técnicas de reparación y mantenimiento de carrocerías.
                                         Aprende cómo restaurar y mejorar la apariencia de tu vehículo por ti mismo. ¡Empodérate con conocimientos prácticos para
                                         cuidar y embellecer la carrocería de tu auto!</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="animales">
+                    <div class="animales txt-amarillo">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 text-center bordes separa-hori-lg separa-verti">
@@ -169,17 +169,17 @@
             </div>
 
             <!--inicio barra inferiro-->
-            <div class="downbar bg-plomo py-1">
+            <div class="downbar bg-negro py-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 t700">
                             <ul class="nav justify-content-center"> <!--centrer, para centrar los 3 iconos-->
                                 <!-- 1. se agrega "fa " para que carge los iconos-->
                                 <!-- 2. el px-2 es para que no estan juntos-->
-                                <li class="txt-amarillo ">Visitanos/Siguenos</li>
-                                <li><a class="text-decoration-none txt-amarillo" href="https://www.facebook.com/?locale=es_LA"><i class="fa fa-brands fa-facebook px-2"></i></a></li>
-                                <li><a class="text-decoration-none txt-amarillo" href="https://www.instagram.com/"><i class="fa fa-brands fa-instagram px-2"></i></a></li>
-                                <li><a class="text-decoration-none txt-amarillo" href="https://twitter.com/?lang=es"><i class="fa fa-brands fa-twitter px-2"></i></a></li>
+                                <li class="txt-blanco">Visitanos/Siguenos</li>
+                                <li><a class="text-decoration-none txt-blanco" href="https://www.facebook.com/?locale=es_LA"><i class="fa fa-brands fa-facebook px-2"></i></a></li>
+                                <li><a class="text-decoration-none txt-blanco" href="https://www.instagram.com/"><i class="fa fa-brands fa-instagram px-2"></i></a></li>
+                                <li><a class="text-decoration-none txt-blanco" href="https://twitter.com/?lang=es"><i class="fa fa-brands fa-twitter px-2"></i></a></li>
                             </ul><!-- fin lista-->
                         </div>
                     </div><!-- fin row-->
@@ -187,13 +187,13 @@
             </div><!-- fin barra superior -->
         </header>
         <!--main></main-->
-        <footer class="footer text-center"><!-- Pie de la pagina -->
+        <footer class="footer text-center txt-amarillo"><!-- Pie de la pagina -->
             <div class="copyright">
                 <div class="container">
                     <hr>
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
-                            <p><b><a href="index.html"> <img src="img\logo.png" width="50"></a> | 2024 | Mecanica | Taller mecanico Rayo Makween |   <a class="text-decoration-none txt-negro" href="login.html">Ingreso personal</a></b></p>
+                            <p><b><a href="index.html"> <img src="img\logo.png" width="50"></a> | 2024 | Mecanica | Taller mecanico Rayo Makween |   <a class="text-decoration-none txt-amarillo2" href="login.html">Ingreso personal</a></b></p>
                         </div>
                     </div>
                 </div>

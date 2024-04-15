@@ -28,11 +28,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@200..900&display=swap" rel="stylesheet">
     </head>
     
-    <body>
+    <body class="fondo">
         <header>
                 
             <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- inicio barra superior-->
-                <div class="container-fluid bg-celeste">
+                <div class="container-fluid bg-negro">
                     <a href="index.html"> <img src="img\logo.png" width="60"> </a> <!--imagen que me dirige al inicio-->
                     <p class="txt-plomo t700 px-1"> Taller Mecánico <br><span class="text-uppercase txt-plomo t400 px-1"> Rayo Makween</span> </p>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link txt-plomo dropdown-toggle" href="autoayuda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Auto ayuda</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu bg-silver">
                                     <li><a class="dropdown-item txt-plomo" href="carroseria.html">Carroseria</a></li>
                                     <li><a class="dropdown-item txt-plomo" href="electricidad.html">Electricidad</a></li>
                                     <li><a class="dropdown-item txt-plomo" href="gases.html">Gases</a></li>
@@ -75,13 +75,13 @@
         
                         <form class="d-flex" role="search"> <!-- inicio sector de busqueda -->
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                                <button class="btn btn-outline-secondary" type="submit">Search</button>
                         </form> <!-- fin sector de busqueda -->
                     </div>
                 </div>
             </nav> <!-- ifin barra superior-->
 
-            <div class="titulo-seccion-pag pt-5">
+            <div class="titulo-seccion-pag pt-5 txt-blanco">
                 <div class="container text-center text-capitalize">
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
@@ -93,7 +93,7 @@
                 </div>
             </div>
             
-            <div class="formularios py-5">
+            <div class="formularios py-5 txt-amarillo">
                 <div class="container">
                     <div class="row justify-content-between">
                         <div class="col-lg-2 col-md-2">
@@ -124,14 +124,14 @@
                                         <label for="correo" class="form-label titulos-form">Correo electrónico</label>
                                         <!-- para ingresar el correo-->
                                         <input type="email" class="form-control" id="correo" name="correo" aria-describedby="emailHelp">
-                                        <div id="emailHelp" class="form-text">Nos contactaremos directamente en este correo
+                                        <div id="emailHelp" class="form-text txt-amarillo">Nos contactaremos directamente en este correo
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-6 pt-2">
                                     <div class="mb-3 form-check">
                                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label link-mora" name="ok" for="exampleCheck1">Acepto los   <a class="text-decoration-none" href="#">términos y condiciones</a></label>
+                                        <label class="form-check-label link-mora" name="ok" for="exampleCheck1">Acepto los   <a class="text-decoration-none txt-amarillo" href="#">términos y condiciones</a></label>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary bg-morado">Enviar</button>
@@ -144,17 +144,17 @@
             </div>
 
             <!--inicio barra inferiro-->
-            <div class="downbar bg-plomo py-1">
+            <div class="downbar bg-negro py-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 t700">
                             <ul class="nav justify-content-center"> <!--centrer, para centrar los 3 iconos-->
                                 <!-- 1. se agrega "fa " para que carge los iconos-->
                                 <!-- 2. el px-2 es para que no estan juntos-->
-                                <li class="txt-amarillo ">Visitanos/Siguenos</li>
-                                <li><a class="text-decoration-none txt-amarillo" href="https://www.facebook.com/?locale=es_LA"><i class="fa fa-brands fa-facebook px-2"></i></a></li>
-                                <li><a class="text-decoration-none txt-amarillo" href="https://www.instagram.com/"><i class="fa fa-brands fa-instagram px-2"></i></a></li>
-                                <li><a class="text-decoration-none txt-amarillo" href="https://twitter.com/?lang=es"><i class="fa fa-brands fa-twitter px-2"></i></a></li>
+                                <li class="txt-blanco">Visitanos/Siguenos</li>
+                                <li><a class="text-decoration-none txt-blanco" href="https://www.facebook.com/?locale=es_LA"><i class="fa fa-brands fa-facebook px-2"></i></a></li>
+                                <li><a class="text-decoration-none txt-blanco" href="https://www.instagram.com/"><i class="fa fa-brands fa-instagram px-2"></i></a></li>
+                                <li><a class="text-decoration-none txt-blanco" href="https://twitter.com/?lang=es"><i class="fa fa-brands fa-twitter px-2"></i></a></li>
                             </ul><!-- fin lista-->
                         </div>
                     </div><!-- fin row-->
@@ -162,13 +162,13 @@
             </div><!-- fin barra superior -->
         </header>
         <!--main></main-->
-        <footer class="footer text-center"><!-- Pie de la pagina -->
+        <footer class="footer text-center txt-amarillo"><!-- Pie de la pagina -->
             <div class="copyright">
                 <div class="container">
                     <hr>
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
-                            <p><b><a href="index.html"> <img src="img\logo.png" width="50"></a> | 2024 | Mecanica | Taller mecanico Rayo Makween |   <a class="text-decoration-none txt-negro" href="login.html">Ingreso personal</a></b></p>
+                            <p><b><a href="index.html"> <img src="img\logo.png" width="50"></a> | 2024 | Mecanica | Taller mecanico Rayo Makween |   <a class="text-decoration-none txt-amarillo2" href="login.html">Ingreso personal</a></b></p>
                         </div>
                     </div>
                 </div>

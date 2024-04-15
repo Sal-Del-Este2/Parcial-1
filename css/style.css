@@ -7,6 +7,7 @@
 .txt-amarillo{color: rgb(247, 232, 99)}
 .txt-negro{color: rgb(0, 0, 0)}
 .txt-blanco{color: rgb(255, 255, 255)}
+.txt-negro{color: rgb(0, 0, 0)}
 
 /*colores para los background*/
 .bg-plomo{background-color: rgb(117, 117, 117)}
@@ -17,6 +18,8 @@
 .bg-amarillo{background-color: rgb(247, 232, 99)}
 .bg-negro{background-color: rgb(0, 0, 0)}
 .bg-azul{background-color: rgb(16, 0, 85)}
+.bg-negro{background-color: rgb(0, 0, 0)}
+.bg-silver{background-color: rgba(179, 179, 179, 0.163)}
 
 /*colores para los botones, "hover" es para atenuar*/
 .btn-morado{background-color: rgb(203, 133, 243)}
@@ -31,6 +34,7 @@
 .btn-rosa:hover{background-color: rgb(197, 70, 191)}
 .btn-amarillo{background-color: rgb(247, 232, 99)}
 .btn-amarillo:hover{background-color: rgb(184, 171, 55)}
+.btn-negro{background-color: rgb(0, 0, 0)}
 
 /* grosor de textos*/
 .t100{ font-weight: 100;}
@@ -43,14 +47,19 @@
 .t800{ font-weight: 800;}
 .t900{ font-weight: 900;}
 
-.body{font-family: 'nunito Sans', sans-serif;} /*tipografia en toda la pagina sera la misma por eso body*/
+
+.fondo{
+  font-family: 'nunito Sans', sans-serif;
+  background-image: url(/img/fondo.jpg);
+  background-repeat: no-repeat; background-size: cover;
+  background-position: center; background-attachment: fixed; 
+}
 .tam01{font-size: 1.3rem;}/*usar "rem" para que se adapte el tamaño de la pagina y no sea absoluto como el PX*/
 .centrar{display: flex; justify-content: center; align-items: center;}/* para centrar */
 
 .bordes{
-    background-color: #83bfc5;
-    border: 10px solid #83bfc5;
-    border-radius: 2rem 5rem;
+    background-color: rgba(192, 192, 192, 0.56);
+    border-radius: 2rem 4rem;
     width: auto;
     height: auto;
 }
@@ -62,7 +71,7 @@
     text-align: center;
 }
 .img-bordes {
-    border: 2px solid black; /* agrega borde negro*/
+    border: 2px solid yellow; /* agrega borde negro*/
     border-radius: 2rem 4rem; /* Borde redondeado en imagen*/
     padding: 1px; /* Espacio entre el borde e imagen */
 }
@@ -139,4 +148,23 @@ li a {
 }
 .txt-justificado {
   text-align: justify;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(117, 117, 117); /* Color inicial del texto*/
+  transition: color 0.3s; /* Transición suave*/
+}
+
+/* Estilo al pasar el mouse por encima del enlace */
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+.txt-amarillo2 {
+  color: rgb(247, 232, 99); /* Color de texto inicial (amarillo) */
+  transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para el enlace al pasar el mouse por encima */
+.txt-amarillo2:hover {
+  color: rgb(246, 241, 195); /* Nuevo color de texto al pasar el mouse (por ejemplo, naranja) */
 }
